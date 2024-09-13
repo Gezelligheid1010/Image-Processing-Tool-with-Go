@@ -1,0 +1,68 @@
+body, html{
+    font-family: 'Lilita One', cursive !important;
+}
+
+.title{
+    padding-bottom: 3%;
+}
+
+#container-div{
+    padding: 3% !important;
+}
+
+.row-div{
+    justify-content: center;
+    align-items: center;
+    padding: 5% !important;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5px;
+}
+
+.image-div{
+    width: 100%;
+}
+
+.buttons-div{
+    justify-content: center !important;
+    max-width: 16% !important;
+}
+
+.action-button{
+    border-radius: 5px !important;
+    margin-bottom: 10%;
+}
+
+#image-div-container{
+    padding-top: 14% !important;
+}
+
+#button-group-div{
+    margin-top: 8%;
+}
+
+#processImage-button{
+    background-color: crimson !important;
+    border-color: crimson !important;
+}
+
+#processImage-button:hover{
+    background-color: #00B300 !important;
+    border-color: #00B300 !important;
+}
+
+/* 确保按钮在页面上显示 */
+#saveImage-button {
+    display: none; /* 默认隐藏按钮 */
+}
+
+/* 确保按钮的大小和样式与其他按钮一致 */
+.btn {
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+
+/* 确保按钮在悬停时的样式一致 */
+.btn-primary:hover {
+    background-color: #00B300 !important;
+    border-color: #00B300 !important;
+}
